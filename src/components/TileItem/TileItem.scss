@@ -1,0 +1,57 @@
+.tile-item-container {
+    flex-direction: column;
+    height: 100px;
+    width: 80px;
+    margin: 10px;
+    &.available-false {
+        height: 80px;
+        width: 60px;
+        margin: 20px;
+        opacity: 0.6;
+        &:hover {
+            box-shadow: 0;
+            cursor: not-allowed;
+            height: 80px;
+            width: 60px;
+            margin: 20px;
+        }
+    }
+    &:hover {
+        cursor: pointer;
+        height: 110px;
+        margin: 5px;
+        width: 90px;
+        .tile-item-back,
+        .tile-item-front {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+    }
+    .react-card-flip {
+        height: 100%;
+        width: 100%;
+        .react-card-back {
+            height: 80px;
+            width: 60px;
+            .tile-item-back {
+                height: 100%;
+                width: 100%;
+                border-radius: 5px;
+                border: 1px solid;
+                box-sizing: border-box;
+            }
+        }
+        .react-card-front {
+            display: block;
+            height: 80px;
+            width: 60px;
+            .tile-item-front {
+                background-color: grey;
+                height: 100%;
+                width: 100%;
+                border-radius: 5px;
+                border: 1px solid;
+                box-sizing: border-box;
+            }
+        }
+    }
+}

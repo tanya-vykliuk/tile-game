@@ -1,0 +1,18 @@
+export const tileColors = [
+    'ff0000',
+    'ffa500',
+    'ffff00',
+    '00ff00',
+    'ffffff',
+    '0000ff',
+    '00ffff',
+    '800080',
+    'ff0000',
+    'ffa500',
+    'ffff00',
+    '00ff00',
+    '0000ff',
+    '00ffff',
+    '800080',
+    'ffffff',
+];
